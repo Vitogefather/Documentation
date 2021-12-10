@@ -1,0 +1,47 @@
+[
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "burn",
+    "outputs": [],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_tokenId",
+        "type": "tokenId"
+      }
+    ],
+    "name": "getTotalBurned",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "offchain"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "token",
+        "type": "tokenId"
+      },
+      {
+        "indexed": false,
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Burn",
+    "type": "event"
+  }
+]
